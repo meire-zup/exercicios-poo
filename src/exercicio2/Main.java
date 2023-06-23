@@ -7,13 +7,8 @@ public class Main {
     public static void main(String[] args) {
 
         Scanner scanner = new Scanner(System.in);
-        System.out.println("**********************************");
-        System.out.println("TAXAS DE SERVIÇOS:");
-        System.out.println("Digite o número do tipo de serviço");
-        System.out.println("1 - Conta Corrente");
-        System.out.println("2 - Conta Poupança");
-        System.out.println("3 - Seguro De Vida");
-        System.out.print("NÚMERO: ");
+        System.out.println("---------------------- TAXAS DE SERVIÇOS ----------------------");
+        System.out.println("Digite 1 - Conta Corrente, 2 - Conta Poupança, 3 - Seguro De Vida");
 
         int escolha = scanner.nextInt();
 
@@ -43,8 +38,6 @@ public class Main {
                 System.out.println("VALOR INVÀLIDO!");
 
         }
-
-        System.out.println("**********************************");
 
     }
 
