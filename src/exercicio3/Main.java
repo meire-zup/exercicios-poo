@@ -9,13 +9,8 @@ public class Main {
 
         Dicionario dicionario = new Dicionario();
 
-        dicionario.objetos.put("bola","azul");
-        dicionario.objetos.put("boneca","amarela");
-        dicionario.objetos.put("dado","rosa");
+        dicionario.adicionarObjetos();
 
-        for (String objeto : dicionario.objetos.keySet()) {
-            System.out.println(objeto + " -> " + dicionario.objetos.get(objeto));
-        }
-
+        dicionario.imprimir();
     }
 }
